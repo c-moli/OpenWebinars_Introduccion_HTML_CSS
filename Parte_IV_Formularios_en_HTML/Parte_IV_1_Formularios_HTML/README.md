@@ -33,10 +33,10 @@ Un ejemplo sería:
 
 ```html
 <label for="nombre">Nombre:</label>
-<input type="text" name="nombre" />
+<input type="text"id="nombre" name="..." />
 ```
 
-Aquí estamos asociando la etiqueta al campo usando los atributos **_for_** y **_name_**.
+Aquí estamos asociando la etiqueta al campo usando los atributos **_for_** e **_id_**.
 
 El campo que hemos usado para la recogida de información es un input. Existen muchos tipos que veremos con más detalle en el próximo apartado.
 

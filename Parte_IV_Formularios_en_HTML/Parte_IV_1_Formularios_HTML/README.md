@@ -44,11 +44,12 @@ El campo que hemos usado para la recogida de información es un input. Existen m
 
 Son elementos que también hemos visto muchas veces. Al hacer click sobre ellos nos muestran varias opciones de las que podremos escoger una o varias.
 
-Para crear listas desplegables usaremos las etiquetas **<select>** como etiqueta padre y una etiqueta **<option>** para cada una de las opciones que tengamos en la lista desplegable. Si queremos agrupar esas opciones las meteremos a su vez dentro de una etiqueta **<optgroup>**.
+Para crear listas desplegables usaremos las etiquetas **select** como etiqueta padre y una etiqueta **option** para cada una de las opciones que tengamos en la lista desplegable. Si queremos agrupar esas opciones las meteremos a su vez dentro de una etiqueta **optgroup**.
 
 Un ejemplo sería:
 
 ```html
+
 <select name="provincia">
     <optgroup label="Aragon">
         <option value="Z">Zaragoza</option>
@@ -57,6 +58,7 @@ Un ejemplo sería:
     </optgroup>
 
 </select>
+
 ```
 
 Fijaros los nuevos atributos que he metido.
@@ -78,7 +80,7 @@ Un ejemplo sería:
 
 ### Botones
 
-La etiqueta **<button>** no creo que se necesario explicar para que sirve...Haz click!!!
+La etiqueta **button** no creo que se necesario explicar para que sirve...Haz click!!!
 
 El atributo más importante que tienen es type que puede tomar tres valores:
 
@@ -88,13 +90,13 @@ El atributo más importante que tienen es type que puede tomar tres valores:
 
 ### Agrupando atributos
 
-Hay situaciones en las que los campos de los formularios por significado, por importancia o por cualquier razón, queremos que se muestren agrupados. Para estos casos tenemos la etiqueta **<fieldset>** que la usaremos siguiente el siguiente esquema:
+Hay situaciones en las que los campos de los formularios por significado, por importancia o por cualquier razón, queremos que se muestren agrupados. Para estos casos tenemos la etiqueta **fieldset** que la usaremos siguiente el siguiente esquema:
 
 ![Arbol DOM Fieldset](./img/fieldset.png)
 
 Siendo:
 
-- **<legend>** una etiqueta que contiene el nombre del grupo y que se mostrará en la parte de arriba.
+- **legend** una etiqueta que contiene el nombre del grupo y que se mostrará en la parte de arriba.
 - **controles** todos los campos que queramos meter.
 
 **NOTA:** la etiqueta tiene un borde por defecto
